@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+}
+
+.card-body {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#messages {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 200px;
+    max-height: 400px;
+    overflow-y: scroll;
+    background-color: #f9f9f9;
+}
+
+#chat-form {
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+#chat-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#chat-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#chat-form button:hover {
+    background-color: #0056b3;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+/* Add your custom styles here as needed */
